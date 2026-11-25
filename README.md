@@ -1,8 +1,14 @@
 # Botfather2
 
-**Botfather2** runs and manages a whole fleet of Evony accounts from one desktop app. It works without a browser, Flash or a game client: a built-in engine talks to the game servers directly, so a single PC can keep hundreds of accounts online at a time.
+> [!IMPORTANT]
+> **This is a beta build (0.9.x).** All of Botfather2's planned features are in, and it is being tested on real fleets before the first full release, **1.0.0**. What that means for you:
+> - **It runs real accounts, but expect bugs.** Some features are still being checked against the live game, and a few may behave differently from what you expect.
+> - **Updates come often**, usually with fixes. Install them when the app offers them.
+> - **Settings and data carry forward.** Your roster, settings and scan history are kept from one beta to the next, and on into 1.0.0.
+> - **Report what you find**, with the account's server and roughly when it happened, to whoever gave you access. The app's logs (**Logs** page) help a lot.
+> - Start with a few accounts before moving a whole fleet onto a new version.
 
-> **Status: alpha (0.6.x).** Botfather2 is in active development and updates often. Expect rough edges; report problems to whoever gave you access.
+**Botfather2** runs and manages a whole fleet of Evony accounts from one desktop app. It works without a browser, Flash or a game client: a built-in engine talks to the game servers directly, so a single PC can keep hundreds of accounts online at a time.
 
 This repository holds **installers and updates only**. The source code is private.
 
@@ -66,7 +72,6 @@ The core of the app is free to use. **Premium modules** need a **Botfather2 Lice
 | Module | What it unlocks |
 | --- | --- |
 | `market` | The **Markets** page and the scheduled **Market Monitor** scan |
-| `glitching` | The **Glitching** tab on the Markets page |
 | `map` | The **Map** page and the scheduled **Map Scan** |
 | `prestigemonitor` | The scheduled **Player Rank** and **Hero Rank** scans |
 | `communications` | The **Communications** page and posting to **Discord / Telegram** webhooks |
@@ -138,4 +143,6 @@ Connect Claude Code, Claude Desktop or any MCP client to read your fleet's state
 
 ## Versions
 
-Versions are `0.x.y` during alpha. Beta starts at `0.9.x`, and the first full release will be `1.0.0`. Each release's notes on the [Releases page](../../releases) list what changed.
+Botfather2 is in **beta**: versions are `0.9.x` until the first full release, `1.0.0`. Each release's notes on the [Releases page](../../releases) list what changed.
+
+Settings → Advanced → **Engines** sets how many accounts one engine process hosts (25 by default). It also shows this computer's memory and CPU, and roughly how many more accounts would fit.
