@@ -12,11 +12,15 @@
 
 This repository holds **installers and updates only**. The source code is private.
 
+## Built on NeatBot
+
+Botfather2 also draws on **NeatBot's original source code** (the Flash client, 2010–2020), shared with the project. It is the reference for how the game behaves and for how NeatBot looks and works, so anyone coming from NeatBot feels at home: NeatBot's own icons, its row colors, its per-city log categories, and its rules for commands such as `holiday`. More of it is being brought across during the beta.
+
 ---
 
 ## Download
 
-Get the latest release from the [**Releases** page](../../releases/latest):
+Get the latest release from the [**Releases** page](../../releases/latest). What changed in each beta: [**CHANGELOG.md**](CHANGELOG.md).
 
 | Platform | File | Notes |
 | --- | --- | --- |
