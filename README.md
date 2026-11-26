@@ -8,7 +8,7 @@
 > - **Report what you find**, with the account's server and roughly when it happened, to whoever gave you access. The app's logs (**Logs** page) help a lot.
 > - Start with a few accounts before moving a whole fleet onto a new version.
 
-**Botfather2** runs and manages a whole fleet of Evony accounts from one desktop app. It works without a browser, Flash or a game client: a built-in engine talks to the game servers directly, so a single PC can keep hundreds of accounts online at a time.
+**Botfather2** runs and manages a whole fleet of Age One Game Server accounts from one desktop app. It works without a browser, Flash or a game client: a built-in engine talks to the game servers directly, so a single PC can keep hundreds of accounts online at a time.
 
 This repository holds **installers and updates only**. The source code is private.
 
