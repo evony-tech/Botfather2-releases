@@ -100,7 +100,7 @@ Double-click an account to open its page:
 - **Goals and Scripts** editors.
 
 ### Goals
-Standing, unattended automation per city: building, research, troops, fortifications, trading, upkeep, valleys, NPCs, heroes, quests and more. Goal sets come in layers: base goals for every account, alliance goals, and each city's own goals. New or captured cities get **New City goals** automatically.
+Standing, unattended automation per city: building, research, troops, fortifications, trading, upkeep, valleys, NPCs, heroes, quests and more. Goal sets come in layers, run top to bottom: **Prepends** for every account, **Alliance prepends** for each alliance, each city's own goals, then **Append goals**. New or captured cities get **New City goals** automatically.
 
 ### Scripts
 NEAT's script language: variables, expressions, control flow, functions, the game objects (`city`, `cities`…), map searches, and commands for chat, items, quests, marches (attack, scout, transport, reinforce, recall) and more. Scripts keep running when you close the account page.
