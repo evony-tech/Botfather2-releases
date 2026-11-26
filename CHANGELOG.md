@@ -2,6 +2,20 @@
 
 Every Botfather2 beta release (0.9.x), newest first. Downloads are on the [Releases page](https://github.com/evony-tech/Botfather2-releases/releases).
 
+## 0.9.6 (2026-11-26)
+
+### New
+- **The Log and City Log look and work like NeatBot's:** every city's lines also show in the account's Log after a red `(City) - `, the account's own after a blue `(Account) - `; each line in its log category's colour, errors red, `HH:MM:SS` stamps in NeatBot's teal.
+- **Holiday waits for every march to come home**, however long that takes (it used to give up after 30 minutes), then clears the cities again and goes on holiday. Problems -- the game refusing with nothing out, a wait past 2 hours, giving up after a day -- are said in **alliance chat**, or posted to the server's **Notices** target (Communications page) when the account has no alliance.
+- **Settings → About** has the version, a **Check for updates now** button, what Botfather2 does, the license modules, where your data is kept, and this changelog.
+- **Request pacing** moved into the **Engines** card (Settings → Advanced).
+- The gold theme is now called **Classic Gold** (nothing else changes).
+
+### Fixes
+- **The main window no longer goes blank** on a busy market: it was sent every city's full state over 100 times a second (about 20 MB/s) and crashed, again and again after each reload. Each city now reaches the windows at most once a second; goals and scripts still see every update.
+
+_Restarts only the app window; accounts on a detached engine stay online._
+
 ## 0.9.5 (2026-11-26)
 
 ### New
