@@ -2,6 +2,16 @@
 
 Every Botfather2 beta release (0.9.x), newest first. Downloads are on the [Releases page](https://github.com/evony-tech/Botfather2-releases/releases).
 
+## 0.9.7 (2026-11-26)
+
+### New
+- **Scripts run the way NeatBot runs them:** `%name%` is filled in once when the script loads, from the `set` lines above it; `print` is `echo`; `$error` is only set when a command fails, starts empty inside a function and comes back after it; a function's variables are its own; calls nest up to 40 deep; `sleep @HHMMSS` works; `json_encode`'s extra arguments leave keys out; lists have NeatBot's `getItemAt`, `contains`, `addItem`, `addItemAt`, `removeItemAt`, `removeAll`, `setItemAt` and `getItemIndex`.
+- **Log lines in NeatBot's words:** `Upgrade Sawmill:7 at position 1004 to level 8`, `Research Agriculture to level 5`, `TROOPS: Queued archer:30`; a refusal is its own line (`castle.upgradeBuilding error (-1): ...`); and when the work is done, `Completed upgrading of Sawmill:7 at position 1004 to level 8` / `Completed research of Agriculture to level 5` (or `Cancelled ...`).
+- **Incoming attacks** are written in the attacked city's log, red, as NeatBot does: `ATTACK by: <lord>@<alliance> from <city>(x,y) with catapult:6666 in 01m:47 @ 7:51:06 PM, 8 waves`, then each wave of 1000+ troops, repeated every 1-2 minutes while they are on their way.
+- **Reports → Report Log:** a running log of the account's army reports (`DEFENSE Plunder Reports, from 8(658,340) to 6(657,340)`, green) and battle results, also shown in the account's Log; **Mailbox** is the report browser as before.
+
+_Restarts the engine: accounts log in again within about a minute._
+
 ## 0.9.6 (2026-11-26)
 
 ### New
